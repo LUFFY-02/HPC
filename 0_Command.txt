@@ -1,5 +1,5 @@
 g++ -fopenmp -o program program.cpp
 
-
+omp : g++ abc.cpp -lgomp -o abc
 nvcc 
-cuda : nvcc -o abc abc.cu 
+nvcc -o abc abc.cu 
