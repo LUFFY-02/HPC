@@ -1,0 +1,5 @@
+g++ -fopenmp -o program program.cpp
+
+
+nvcc 
+cuda : nvcc -o abc abc.cu 
